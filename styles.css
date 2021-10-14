@@ -1,0 +1,177 @@
+/* Landing Footer */
+body {
+    font-family: Verdana, sans-serif;
+}
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    min-height: 5vh;
+}
+
+/* Header Navigation */
+
+.header-main {
+    background-color: #1F2937
+}
+.nav-container {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.signup-button {
+
+}
+.header-subtext {
+    color:#ddd
+}
+
+.nav-links a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.nav-links a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+
+/* Landing Headers */
+
+
+  .header-text {
+    font-size: 3em;
+    font-weight:800 ;
+    color:#ddd
+}
+
+.header-container {
+    display: flex;
+    margin: 45px 5em;
+    padding: 40px;
+    justify-content: space-between;
+    min-width: 0;
+}
+
+.header-textMain {
+}
+
+.placeholder-img {
+    flex: 0 1 auto;
+}
+
+.signup-button {
+    display: inline-block;
+    padding: 9px 15px;
+    width: 18%;
+    text-align: center;
+    font-weight: 800;
+    background-color: #3882F6;
+    color: rgb(251, 251, 251);
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+/* Section Two (RANDOM INFORMATION) */
+.section-two {
+    background-color: white;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    margin: 50px 200px;
+    text-align: center;
+}
+
+.infoTitle {
+    display: block;
+    text-align: center;
+    margin: 50px;
+    font-size: 25px;
+}
+
+/* Section Three (QUOTE) */
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5em;
+    padding-right: 5em;
+}
+
+.quoteBig {
+    font-family: Roboto;
+    font-size: 2em;
+    padding: 5em 5em 0em 5em;
+}
+
+.Author {
+    font-family: Montserrat;
+    font-weight:bold;
+    text-align: right;
+    padding: 5em 5em 0 5em;
+}
+
+/* Signup CALL TO ACTION */
+.signUpAction-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882F6;
+    color: white;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    padding: 3em;
+    border-radius: 0.5em;
+}
+
+.signUpText {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.signUpPara {
+    font-family: Roboto;
+}
+
+.sA-left a {
+    font-family: Montserrat;
+    padding: 10px 4em;
+    width: 18%;
+    text-align: center;
+    font-weight: 800;
+    background-color: #3882F6;
+    color: rgb(251, 251, 251);
+    border: 2px solid white;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
